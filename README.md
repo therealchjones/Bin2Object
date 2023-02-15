@@ -1,11 +1,12 @@
 # Bin2Object
-A BinaryReader and BinaryWriter which can serialize and deserialize arbitrary binary formats into objects and vice versa.
 
-Built against .NET Standard 2.1 (.NET Core 3.1).
+A BinaryReader and BinaryWriter which can serialize and deserialize arbitrary
+binary formats into objects and vice versa. This is forked from
+[excellent work performed by @djkaty and others](https://github.com/djkaty/Bin2Object/) with the
+narrowed intention of supporting [my own fork of Il2CppInspector](https://github.com/therealchjones/Il2CppInspector). I recommend
+instead using the original version and making contributions there.
 
 See Tests\Tests.cs for usage examples.
-
-www.djkaty.com
 
 Copyright &copy; 2016 Perfare - https://github.com/Perfare/Il2CppDumper/
 
